@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Tangerine:wght@400;700&family=Water+Brush&display=swap");
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000000;
+
+}
+
+p {
+    margin-top: 15px;
+}
+
+
+#header {
+    margin: 2px 650px;
+    width: 500px;
+    position: fixed;
+    z-index: 2;
+    text-align: left;
+
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+.nav li a {
+    background-color: rgb(11, 10, 12);
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+.nav li a:hover {
+    color: blueviolet;
+}
+
+
+.nav>li {
+    float: left;
+}
+
+.nav li ul {
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+
+.nav li:hover>ul {
+    display: block;
+}
+
+.nav li ul li {
+    position: relative;
+}
+
+.nav li ul li ul {
+    right: -140px;
+    top: 0px;
+}
+
+.imagen {
+    z-index: 1;
+    position: relative;
+    margin: 0px;
+    width: 100%;
+
+}
+
+.imagen p {
+    position: absolute;
+    margin-left: 2rem;
+    width: 350px;
+    font-family: tangerine;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    top: 10%;
+}
+
+.imagen p:hover {
+    color: blueviolet;
+}
+
+.texto {
+
+    color: white;
+    z-index: 1;
+    position: relative;
+    margin: 20px 30px px 0px;
+    text-align:center;
+    inline-size: 100%;
+}
+
+h1 {
+    font-family: Cinzel;
+}
+
+h1:hover {
+    color: blueviolet;
+}
